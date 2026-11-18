@@ -1,0 +1,28 @@
+# Goodreads → Libby: your shelves
+#
+# One shelf per line:      nickname = shelf RSS link
+#
+#   - The nickname is any name you like; it's what you see in KOReader.
+#   - Get a shelf's RSS link on goodreads.com: open "My Books", click a shelf on the
+#     left, then copy the "RSS" link at the bottom of the page. Private profiles
+#     need this link (it contains key=…).
+#   - Someone else's shelf works the same way (their profile must be public).
+#   - Instead of a link you can write just a shelf name (to-read, currently-reading,
+#     read, or a custom shelf); it then uses your profile / user id below.
+#
+# Examples:
+#   Want to Read = https://www.goodreads.com/review/list_rss/12345678?key=AbCd123&shelf=to-read
+#   Reading now  = https://www.goodreads.com/review/list_rss/12345678?key=AbCd123&shelf=currently-reading
+#   Book club    = book-club
+#   Otis's picks = https://www.goodreads.com/review/list_rss/1?shelf=to-read
+#
+# Optional (only needed for lines that give just a shelf name):
+#   profile = your profile link, e.g. https://www.goodreads.com/user/show/12345678-your-name
+#   user id = your Goodreads user id, e.g. 12345678
+#
+# Lines starting with # are ignored. The plugin reads this file automatically, and
+# shelves you add, rename or reorder in KOReader are saved back into it.
+
+profile = [optional]
+user id = [optional]
+Want to Read = PASTE_YOUR_RSS_LINK_HERE

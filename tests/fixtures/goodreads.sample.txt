@@ -1,0 +1,9 @@
+# Goodreads → Libby: your shelves
+#
+# One shelf per line:      nickname = shelf RSS link
+#
+# Lines starting with # are ignored.
+
+profile = [optional]
+user id = [optional]
+Want to Read = PASTE_YOUR_RSS_LINK_HERE

@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+*.log
+*.log.1
+goodreadslibby.koplugin.zip
+*.epub
+.DS_Store
